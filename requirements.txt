@@ -1,0 +1,2 @@
+google-cloud-storage
+Django==3.0.2
