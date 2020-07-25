@@ -18,7 +18,7 @@ setup(
     include_package_data=True,
     description='A simple Django app to upload or download files from gcp bucket.',
     long_description=README,
-    url='https://github.com/shopistan/emaar-gcp-bucket',
+    url='https://github.com/shopistan/google-gcp-bucket',
     author='iraj majeed, abeera riaz',
     author_email='iraj@shopdev.co, abeera@shopdev.co',
     classifiers=[

@@ -2,7 +2,7 @@ Metadata-Version: 1.1
 Name: bucket
 Version: 1.0
 Summary: A simple Django app to upload or download files from gcp bucket.
-Home-page: https://github.com/shopistan/emaar_lms_gcp
+Home-page: https://github.com/shopistan/google_storage_gcp
 Author: iraj majeed, abeera riaz
 Author-email: iraj@shopdev.co, abeera@shopdev.co
 License: UNKNOWN

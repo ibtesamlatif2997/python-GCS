@@ -14,7 +14,7 @@ class Bucket:
             # Explicitly use service account credentials
             # by specifying the private key file.
             storage_client = service_account.Credentials.from_service_account_info(credentials)
-            storage_client = storage.Client(credentials=storage_client, project="shopdev-emaar")
+            storage_client = storage.Client(credentials=storage_client, project="shopdev-google")
             bucket = storage_client.get_bucket(bucket_name)
             blob = bucket.blob(blob_name)
             blob.upload_from_filename(path_to_file)
@@ -24,7 +24,7 @@ class Bucket:
 
     def read_file(file_name, bucket_name,storage_name,credentials_file):
         storage_client = service_account.Credentials.from_service_account_info(credentials_file)
-        storage_client = storage.Client(credentials=storage_client, project="shopdev-emaar")
+        storage_client = storage.Client(credentials=storage_client, project="shopdev-google")
         # storage_client = storage.Client.from_service_account_json(
         #     credentials_file)
         bucket = storage_client.get_bucket(bucket_name)
