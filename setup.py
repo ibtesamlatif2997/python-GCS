@@ -11,7 +11,7 @@ setup(
     name='bucket',
     version='1.0',
     install_requires=[
-        'Django==3.0.2',
+        'Django==3.1.6',
         'google-cloud-storage'
     ],
     packages=find_packages(),
